@@ -3,6 +3,8 @@
 import "./main.scss";
 
 // Javascript or Typescript
+import '../components/**/*.js';
 import "./**/*.js";
 import "./**/*.ts";
-import '../components/**/*.js';
+
+console.log('new changes');
