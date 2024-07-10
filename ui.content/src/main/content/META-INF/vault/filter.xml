@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/xyz" mode="merge"/>
+    <filter root="/content/xyz" mode="merge"/>
+    <filter root="/content/dam/xyz" mode="merge">
+        <exclude pattern="/content/dam/xyz(/.*)?"/>
+        <include pattern="/content/dam/xyz/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/xyz/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/xyz" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/xyz" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/xyz" mode="merge"/>
+    <filter root="/content/dam/xyz/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/xyz/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/xyz/wknd_logo.png" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/xyz/clientlibs"/>
+    <filter root="/apps/xyz/components"/>
+    <filter root="/apps/xyz/i18n"/>
+    <filter root="/apps/fd/af/themes" mode="merge"/>
+
+</workspaceFilter>
